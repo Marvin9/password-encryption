@@ -1,0 +1,146 @@
+*
+{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body
+{
+    background-color: #170F11;
+    display: none;
+    overflow-x: hidden;
+}
+
+
+.container
+{
+    position: relative;
+    width:100vw;
+    height:100vh;
+    transition: 1s;
+}
+
+.user-form
+{
+    position: absolute;
+    top:0;
+    transition: 1s;
+}
+
+.form, .center
+{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+}
+
+.form input
+{
+    display: block;
+}
+
+.form .input_pass, .center input[type="number"]
+{
+    padding:10px;
+    border:none;
+    width: 300px;
+    height: 40px;
+    font-size: 1.5em;
+    border-radius: 2px;
+    margin:20px auto;
+}
+
+.form .input_pass:focus
+{
+    outline:none;
+}
+
+.form input[type="submit"], 
+.center input[type="submit"]
+{
+    width:100px;
+    height: 40px;
+    margin:0 auto;
+    font-family: Lato;
+    border:2px solid #fff;
+    background: none;
+    color:#fff;
+    font-weight: bold;
+    border-radius: 3px;
+}
+
+.form input[type="submit"]:hover,
+.center input[type="submit"]:hover
+{
+    cursor: pointer;
+}
+
+.form input[type="submit"]:focus,
+.center input[type="submit"]:focus
+{
+    outline: none;
+    font-size: 0.8em;
+}
+
+.eyes
+{
+    position: absolute;
+    right:0;
+    height:40px;
+    width: 40px;
+    color: #170F11;
+    line-height: 40px;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.eyes:hover
+{
+    cursor: pointer;
+}
+
+
+.user-id
+{
+    position: absolute;
+    top:0;
+    left:100vw;
+    background: #170F11;
+    transition: 1s;
+}
+
+.arrow-right, .arrow-left
+{
+    color:#fff;
+    position: absolute;
+    top:50%;
+    right:20px;
+    font-size: 1.5em;
+    transform: translateY(-50%);
+}
+
+.arrow-left
+{
+    display: table;
+    left:20px;
+}
+
+.arrow-right:hover, 
+.arrow-left:hover
+{
+    cursor: pointer;
+}
+
+.center input
+{
+    display: block;
+}
+
+.center 
+{
+    color:#fff;
+    font-family: Lato;
+}

@@ -1,0 +1,18 @@
+{
+  "name": "password_encrypt",
+  "version": "1.0.0",
+  "description": "This app will encrypt your password and give you index base on which you will get your password in encrypt version and you can also decrypt.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "ejs": "^2.6.1",
+    "express": "^4.16.3",
+    "localStorage": "^1.0.3",
+    "mysql": "^2.16.0"
+  }
+}
