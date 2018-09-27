@@ -8,3 +8,4 @@ This app has **two** parts.
 ```
 $ node app
 ```
+To test it live click [here](https://floating-oasis-49139.herokuapp.com/ "Password encryption on heroku")
