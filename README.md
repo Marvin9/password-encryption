@@ -1,6 +1,4 @@
-# password-encryption
-
-**ExpressJS**
+# password-encryption ExpressJS
 
 This app has **two** parts.
 
