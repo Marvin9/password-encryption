@@ -9,3 +9,5 @@ This app has **two** parts.
 $ node app
 ```
 To test it live click [here](https://floating-oasis-49139.herokuapp.com/ "Password encryption on heroku")
+
+PS. It saves password in .txt file, I intentionally didn't use database.
